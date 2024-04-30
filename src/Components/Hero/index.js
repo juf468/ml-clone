@@ -7,7 +7,7 @@ import {  Container, Row } from "./styles";
       <Row>
       <a href="#"className="volver">Volver</a>
       <a href="#">Celulares y Telefonos</a>
-      <a href="#">Celulkares y Smartphones</a>
+      <a href="#">Celulares y Smartphones</a>
 
       </Row>
       <Row>
