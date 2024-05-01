@@ -4,9 +4,6 @@ import {
   Panel, 
   Column,
   Galery, 
-  Info,
-  SaleProduct,
-  SalespersonInfo,
         } from './styles';
 
 export const Product = () => {
@@ -17,12 +14,12 @@ export const Product = () => {
         <Galery>
           <img src='https://http2.mlstatic.com/D_NQ_NP_870142-MLA54920742936_042023-F.webp' alt='Product'/>
         </Galery>
-        <Info/>
+        {/* <Info/> */}
         </Column>
         <Column>
-        <SaleProduct/>
+        {/* <SaleProduct/>
         <SalespersonInfo/>
-        <Galery/>
+        <Galery/> */}
         </Column>
       </Panel>
     </Container>

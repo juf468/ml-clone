@@ -3,8 +3,8 @@ import { createGlobalStyle } from 'styled-components';
 export default createGlobalStyle `
 :root{
 --fondo: #ededed;
--- black: #000;
--- withe: #fff;
+--black: #000;
+--white: #ffffff;
 
 --text1: rgba(0,0,0,.8);
 --text2: rgba(0,0,0,.45);
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6{
 }
 html{
     min-height: 100%;
-    background-color: vare(--fondo);
+    background-color: var(--fondo);
 }
 
 *, button, input{
