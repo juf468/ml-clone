@@ -3,7 +3,8 @@ import {
   Container,
   Panel, 
   Column,
-  Galery, 
+  Galery,
+  Description
         } from './styles';
 
 export const Product = () => {
@@ -14,7 +15,7 @@ export const Product = () => {
         <Galery>
           <img src='https://http2.mlstatic.com/D_NQ_NP_870142-MLA54920742936_042023-F.webp' alt='Product'/>
         </Galery>
-        {/* <Info/> */}
+        <Info/>
         </Column>
         <Column>
         {/* <SaleProduct/>
@@ -26,3 +27,31 @@ export const Product = () => {
   )
 }
 
+const Info = ()=>{
+  return (
+    <Description>
+    <h2>Descripción</h2>
+    <br/>
+    <p>
+    <p>Doble cámara y más detalles
+    Sus 2 cámaras traseras de 50 Mpx/2 Mpx te permitirán tomar imágenes con más detalles y 
+    lograr efectos únicos como el famoso modo retrato de poca profundidad de campo.</p>
+    <br/><br/>
+    <p>Además, el dispositivo cuenta con cámara frontal de 5 Mpx para
+    que puedas sacarte divertidas selfies o hacer videollamadas.</p>
+    <br/><br/>
+    <span>Más para ver</span>
+    <p>Con su pantalla PLS de 6.5", disfrutá de colores intensos y mayor nitidez en todos tus contenidos.</p>
+    <br/><br/>
+    <span>Mayor rendimiento</span>
+    <p>Su memoria RAM de 4 GB permite que tu smartphone funcione de manera fluida y sin demoras al realizar distintas tareas, jugar o navegar.</p>
+    <br/><br/>
+    <span>Batería de duración superior</span>
+    <p>¡Desenchufate! Con la súper batería de 5000 mAh tendrás energía por mucho más tiempo para jugar, ver series o trabajar sin necesidad de realizar recargas.</p>
+    <br/><br/>
+    <span>Gran capacidad de almacenamiento</span>
+    <p>Con su memoria interna de 128 GB podrás almacenar archivos y aplicaciones de gran tamaño sin necesidad de subirlos a la nube y aprovechar tus momentos sin conexión para darles el máximo uso.</p>
+    </p>
+    </Description>
+  )
+}
