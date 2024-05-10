@@ -4,7 +4,8 @@ import {
   Panel, 
   Column,
   Galery,
-  Description
+  Description,
+  Section
         } from './styles';
 
 export const Product = () => {
@@ -19,8 +20,8 @@ export const Product = () => {
         </Column>
         <Column>
         {/* <SaleProduct/>
-        <SalespersonInfo/>
-        <Galery/> */}
+        <SalespersonInfo/> */}
+        <Warranty/>
         </Column>
       </Panel>
     </Container>
@@ -33,8 +34,7 @@ const Info = ()=>{
     <h2>Descripción</h2>
     <br/>
     <p>
-    <p>Doble cámara y más detalles
-    Sus 2 cámaras traseras de 50 Mpx/2 Mpx te permitirán tomar imágenes con más detalles y 
+    <p>Triple cámara  50 Mpx/2 Mpx te permitirán tomar imágenes con más detalles y 
     lograr efectos únicos como el famoso modo retrato de poca profundidad de campo.</p>
     <br/><br/>
     <p>Además, el dispositivo cuenta con cámara frontal de 5 Mpx para
@@ -53,5 +53,25 @@ const Info = ()=>{
     <p>Con su memoria interna de 128 GB podrás almacenar archivos y aplicaciones de gran tamaño sin necesidad de subirlos a la nube y aprovechar tus momentos sin conexión para darles el máximo uso.</p>
     </p>
     </Description>
+  )
+}
+
+const Warranty =()=>{
+  return (
+    <Section>
+      <div>
+        <h2>Garantía</h2>
+        <br/>
+        <span>
+          <p className='title'>Compra Protegida con Mercado Pago</p>
+          <p className='description'>Recibe el producto que esperabas o te devolvemos tu dinero</p>
+        </span>
+        <span>
+          <p className='title'>Grarantía Del Vendedor</p>
+          <p className='description'>Garantía del vendedor: 6 meses</p>
+        </span>
+        <a href='#'>Conocé más sobre la garantía</a>
+      </div>
+    </Section>
   )
 }

@@ -40,3 +40,23 @@ padding: 4px 0;
 }
 `
 
+export const Section = styled.div `
+padding: 32px 16px;
+margin 0 16px;
+border: 1px solid red;
+border-bottom: none;
+>h2{
+    font-size: 18px;
+    margin-bottom: 28px;
+    color: var(--text3);
+    line-height: 22.5px;
+}
+>div{
+    display: flex;
+    flex-direction: column;
+    line-height: 18.9px;
+}
+>span + span{
+    border: 1px solid red;
+}
+`
