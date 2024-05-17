@@ -43,7 +43,7 @@ padding: 4px 0;
 export const Section = styled.div `
 padding: 32px 16px;
 margin 0 16px;
-border: 1px solid red;
+border: 1px solid var(--border);
 border-bottom: none;
 >h2{
     font-size: 18px;
@@ -55,8 +55,25 @@ border-bottom: none;
     display: flex;
     flex-direction: column;
     line-height: 18.9px;
-}
+
 >span + span{
-    border: 1px solid red;
+    margin-top: 24px;
+}
+.title{
+    font-size: 16px;
+    color: var(--text1);
+    line-height: 21.6px;
+    margon-bottom: 12px;
+}
+.description{
+    font-size: 14px;
+    color: var(--text2);
+
+}
+>a{
+    font-size: 14px;
+    color: var(--blue3);
+    text-decoration: none;
+}
 }
 `
