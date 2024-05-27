@@ -8,6 +8,8 @@ import {
   Description,
   Section
         } from './styles';
+import { SaleProduct } from '../SaleProduct';
+
 
 export const Product = () => {
   return (
@@ -20,7 +22,7 @@ export const Product = () => {
         <Info/>
         </Column>
         <Column>
-        {/* <SaleProduct/> */}
+        <SaleProduct/>
         <SalesPersonInfo/>
         <Warranty/>
         </Column>
