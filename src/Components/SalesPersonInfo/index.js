@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { Container, Title, Card, LocationIcon, PlatinumIcon, Reputation, Box, Row, SuportIcon, ClockIcon, Strong, Link  } from "./styled";
+import { Container, Title, Card, LocationIcon, PlatinumIcon, Reputation, Box, Row, SuportIcon, ClockIcon, Link  } from "./styled";
 
 
 const SalesPersonInfo = () => {
@@ -32,19 +32,19 @@ const SalesPersonInfo = () => {
       </Reputation>
       <Row>
         <div>
-          <Strong>9452</Strong>
+          <strong>9452</strong>
           <span>Ventas en los ultimos 60 días</span>
         </div>
         <div>
-          <Strong>
+          <strong>
             <SuportIcon/>
-          </Strong>
+          </strong>
           <span>Brinda buena atención</span>
         </div>
         <div>
-          <Strong>
+          <strong>
             <ClockIcon/>
-          </Strong>
+          </strong>
           <span>Entrega sus productos a tiempo</span>
         </div>
       </Row>

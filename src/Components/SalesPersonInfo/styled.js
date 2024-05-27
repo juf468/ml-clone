@@ -1,5 +1,5 @@
 import  styled, {css}  from 'styled-components';
-import { HiLocationMarker, HiOutlineClock} from "react-icons/hi";
+import { HiLocationMarker, HiOutlineClock, HiOutlineChatAlt2 } from "react-icons/hi";
 import { IoMdRibbon } from "react-icons/io";
 
 const IconsCss = css`
@@ -94,12 +94,52 @@ padding: 0 4px;
   }
 }
 `
-export const Row = styled.div``
-export const SuportIcon = styled.div``
+export const Row = styled.div`
+margin-top: 10px;
+display: flex;
+align-items: flex-start;
+>div{
+    width: 33%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+>strong{
+    font-size: 24px;
+    font-weight: normal;
+    height: 30px;
+}
+>span{
+    font-size: 12px;
+    color: var(--text1);
+}
+position: relative;
+& + div{
+    &::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate(-50%);
+        height: 36px;
+        border-left: 1px solid var(--border)
+
+    }
+}
+}
+`
+export const SuportIcon = styled(HiOutlineChatAlt2)`
+${IconsCss}`
 export const ClockIcon = styled(HiOutlineClock)`
-opacity: .5;
-margin-top: -1.3rem;
+
 ${IconsCss}
 `
-export const Strong = styled.div``
-export const Link = styled.div``
+
+export const Link = styled.a`
+ margin-top: 24px;
+ color: var(--blue1);
+ font-size: 14px;
+ text-decoration: none;
+ line-height: 18.9px;
+`
