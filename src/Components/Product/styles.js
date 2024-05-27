@@ -42,8 +42,9 @@ padding: 4px 0;
 
 export const Section = styled.div `
 padding: 32px 16px;
-margin 0 16px;
-border: 1px solid var(--border);
+margin: 0 16px;
+border: 1px solid var(--border); 
+
 border-bottom: none;
 >h2{
     font-size: 18px;

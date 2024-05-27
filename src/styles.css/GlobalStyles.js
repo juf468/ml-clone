@@ -21,10 +21,10 @@ export default createGlobalStyle `
 --panel: 0 1px 3px 0 rgba(0, 0, 0, .3)
 
 --reputacion1: #ffe7e6;
---reputacion1: #fff4e7;
---reputacion1: #fffde5;
---reputacion1: #f3fee0;
---reputacion1: #00a650;
+--reputacion2: #fff4e7;
+--reputacion3: #fffde5;
+--reputacion4: #f3fee0;
+--reputacion5: #00a650;
 
 --family: "Proxima Nova" -apple-system, "Helvetica Neue", Helvetica,
 Roboto, Arial, sans-serif;
